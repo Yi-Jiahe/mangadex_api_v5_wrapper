@@ -6,18 +6,10 @@ Supports searching for manga by title, retrieving chapters by manga_id and retri
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `mangadexapiv5wrapper` to your list of dependencies in `mix.exs`:
-
 ```elixir
 def deps do
   [
-    {:mangadexapiv5wrapper, "~> 0.1.0"}
+    {:mangadexapiv5wrapper, git: "https://github.com/Yi-Jiahe/mangadex_api_v5_wrapper.git", tag: "v0.1.0"}
   ]
 end
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/mangadexapiv5wrapper](https://hexdocs.pm/mangadexapiv5wrapper).
-
