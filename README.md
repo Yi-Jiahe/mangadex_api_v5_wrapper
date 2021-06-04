@@ -1,6 +1,8 @@
 # MangaDexWrapper
 
-**TODO: Add description**
+A simple wrapper for the MangaDex API v5 for elixir.
+
+Supports searching for manga by title, retrieving chapters by manga_id and retrieving the necessary data for retrieving a page from the MangaDex@Home servers.
 
 ## Installation
 

@@ -37,8 +37,6 @@ defmodule MangaDexWrapper do
 
   @doc """
   Get a list of chapters for a manga identified by manga_id.
-
-
   """
   @spec get_manga_chapters(String.t) :: {:ok, term} | {:error, term}
   def get_manga_chapters(manga_id) do
